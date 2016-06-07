@@ -13,8 +13,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="***SITIOS TURISTICOS***"
+        android:text="SITIOS TURISTICOS."
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="-Casa de la Cultura “Cerro del Ángel”. Auditorio, teatro al aire libre y edificio de talleres. Cl 53 A 52-23. Entrada libre."
+        android:textSize="20dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="-Monumento Nacional a Don Marco Fidel Suárez: Choza donde nació el ex-presidente de la República y más ilustre hijo de la ciudad. Interés arquitectónico, cultural e histórico. Entrada libre."
+        android:textSize="20dp"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="-Camino Corrales: se presume que fue transitado por los indígenas Niquía. Durante la colonia sirvió para comunicar al occidente con el norte del Departamento de Antioquia. Sector de Niquía."
+        android:textSize="20dp"
+        android:id="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView30" />
 </RelativeLayout>

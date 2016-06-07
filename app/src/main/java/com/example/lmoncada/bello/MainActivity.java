@@ -1,7 +1,9 @@
 package com.example.lmoncada.bello;
 
 import android.content.Intent;
+import android.location.Location;
 import android.net.Uri;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,6 +17,8 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.maps.OnMapReadyCallback;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -133,4 +137,3 @@ public class MainActivity extends AppCompatActivity {
         client.disconnect();
     }
 }
-

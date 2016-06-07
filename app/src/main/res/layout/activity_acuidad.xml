@@ -13,9 +13,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="***Bello***"
+        android:text="Bello."
+        android:textSize="25dp"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En virtud de su población,  Bello es la segunda ciudad del Departamento de Antioquia y décimoprimera de Colombia. A Bello se le conoce en el nivel departamental como -La Ciudad de los Artistas-,."
+        android:textSize="20dp"
+        android:id="@+id/textView36"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En los alrededores del municipio de Bello es posible practicar el turismo ecológico, observando nacimientos de las quebradas La Garcia, El Hato y La Iguana en la Serranía de las Baldías, diversos sitios de cultivo agrícola y piscícola, haciendas ganaderas y practicar deportes extremos como el parapentismo. Entre los sitios de ecoturismo podemos mencionar el Corregimiento de San Felix y el Salto de la Quebrada El Hato."
+        android:textSize="20dp"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

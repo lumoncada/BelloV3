@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="***INFO. DEMOGRAFICA***"
+        android:text="INFORMACION DEMOGRAFICA."
         android:id="@+id/textView7"
         android:layout_alignParentTop="true"
         android:layout_alignWithParentIfMissing="false"
@@ -24,18 +24,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bello es un municipio de Colombia, ubicado en el norte del Valle de Aburrá del departamento de Antioquia."
+        android:textSize="20dp"
         android:id="@+id/textView9"
         android:layout_below="@+id/textView7"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp"
-        android:textSize="10dp" />
+        android:layout_marginTop="57dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" Limita por el norte con el municipio de San Pedro de los Milagros, por el este con el municipio de Copacabana, por el sur con la ciudad de Medellín y por el oeste con la ciudad de Medellín y el municipio de San Jerónimo."
         android:id="@+id/textView10"
-        android:textSize="10dp"
+        android:textSize="20dp"
         android:layout_below="@+id/textView9"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -49,7 +49,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="38dp"
-        android:textSize="10dp" />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         android:layout_below="@+id/textView11"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="10dp" />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
         android:layout_below="@+id/textView12"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="10dp" />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="32dp"
-        android:textSize="10dp"
+        android:textSize="20dp"
         android:textAlignment="center" />
 
 </RelativeLayout>

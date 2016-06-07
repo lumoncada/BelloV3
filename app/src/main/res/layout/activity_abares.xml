@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="***BARES DE BELLO***"
+        android:text="BARES DE BELLO."
         android:id="@+id/textView6"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -26,36 +26,37 @@
         android:id="@+id/Isanpetes"
         android:layout_gravity="center"
         android:src="@mipmap/isanpete"
+        android:layout_marginTop="36dp"
         android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/Ibocca"
+        android:layout_alignEnd="@+id/Ibocca"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="34dp" />
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/Ibocca"
         android:src="@mipmap/lbocca"
-        android:layout_below="@+id/Isanpetes"
-        android:layout_alignLeft="@+id/Iborinquen"
-        android:layout_alignStart="@+id/Iborinquen"
-        android:layout_marginTop="23dp" />
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_toLeftOf="@+id/textView20"
+        android:layout_toStartOf="@+id/textView20" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/Iborinquen"
         android:src="@mipmap/borinquen"
-        android:layout_below="@+id/Ibocca"
-        android:layout_alignRight="@+id/Isanpetes"
-        android:layout_alignEnd="@+id/Isanpetes"
-        android:layout_marginTop="35dp" />
+        android:layout_alignTop="@+id/textView41"
+        android:layout_toLeftOf="@+id/textView23"
+        android:layout_toStartOf="@+id/textView23" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
+        android:text="SANPETERSBURGO."
+        android:textSize="20dp"
         android:id="@+id/textView15"
         android:layout_alignTop="@+id/Isanpetes"
         android:layout_centerHorizontal="true" />
@@ -64,31 +65,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="LA BOCA"
+        android:text="LA BOCA."
         android:id="@+id/textView16"
-        android:layout_alignTop="@+id/Ibocca"
-        android:layout_alignLeft="@+id/textView15"
-        android:layout_alignStart="@+id/textView15" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="BORINQUEN SALSA BAR"
-        android:id="@+id/textView17"
-        android:layout_alignTop="@+id/Iborinquen"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16" />
+        android:textSize="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dirección: 	 Cra. 47 con Calle 52 Nº 47-07"
         android:id="@+id/textView18"
-        android:layout_below="@+id/textView16"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16"
-        android:textSize="10dp" />
+        android:textSize="15dp"
+        android:layout_below="@+id/textView20"
+        android:layout_toRightOf="@+id/Ibocca"
+        android:layout_toEndOf="@+id/Ibocca" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -96,10 +89,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Especialidad: Salsa"
         android:id="@+id/textView19"
+        android:textSize="15dp"
         android:layout_below="@+id/textView18"
-        android:layout_alignLeft="@+id/textView18"
-        android:layout_alignStart="@+id/textView18"
-        android:textSize="10dp" />
+        android:layout_toRightOf="@+id/Ibocca"
+        android:layout_toEndOf="@+id/Ibocca" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -107,30 +100,31 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Horarios: Todos los días de 4 p.m. a 2 a.m."
         android:id="@+id/textView20"
-        android:layout_below="@+id/textView19"
-        android:layout_alignLeft="@+id/textView19"
-        android:layout_alignStart="@+id/textView19"
-        android:textSize="10dp" />
+        android:textSize="15dp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dirección: Zona Rosa Barrio Prado / Bello"
         android:id="@+id/textView21"
-        android:textSize="10dp"
-        android:layout_below="@+id/textView17"
-        android:layout_alignLeft="@+id/textView17"
-        android:layout_alignStart="@+id/textView17" />
+        android:textSize="15dp"
+        android:layout_alignBaseline="@+id/textView22"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Especialidad: Salsa Romántica - Vallenato"
         android:id="@+id/textView22"
-        android:textSize="10dp"
-        android:layout_below="@+id/textView21"
-        android:layout_alignLeft="@+id/textView17" />
+        android:textSize="15dp"
+        android:layout_below="@+id/textView23"
+        android:layout_toRightOf="@+id/Iborinquen"
+        android:layout_toEndOf="@+id/Iborinquen" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -138,16 +132,18 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Horarios: Todos los días de 8 p.m. a 2 a.m."
         android:id="@+id/textView23"
-        android:textSize="10dp"
-        android:layout_below="@+id/textView22"
-        android:layout_alignLeft="@+id/textView17" />
+        android:textSize="15dp"
+        android:layout_below="@+id/textView19"
+        android:layout_toRightOf="@+id/Ibocca"
+        android:layout_toEndOf="@+id/Ibocca"
+        android:layout_marginTop="52dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dirección: 26, Cl. 52 #51, Bello, Antioquia."
         android:id="@+id/textView24"
-        android:textSize="10dp"
+        android:textSize="15dp"
         android:layout_below="@+id/textView15"
         android:layout_alignLeft="@+id/textView15"
         android:layout_alignStart="@+id/textView15" />
@@ -158,7 +154,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Especialidad: Rock Alternativo."
         android:id="@+id/textView25"
-        android:textSize="10dp"
+        android:textSize="15dp"
         android:layout_below="@+id/textView24"
         android:layout_alignLeft="@+id/textView24"
         android:layout_alignStart="@+id/textView24" />
@@ -169,9 +165,31 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Horarios: Todos los dias 4:00pm-2:00am."
         android:id="@+id/textView26"
-        android:textSize="10dp"
+        android:textSize="15dp"
         android:layout_below="@+id/textView25"
         android:layout_alignLeft="@+id/textView25"
         android:layout_alignStart="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="BORINQUEN SALSA BAR."
+        android:textSize="20dp"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView19"
+        android:layout_toRightOf="@+id/Iborinquen"
+        android:layout_toEndOf="@+id/Iborinquen"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad: Salsa Romántica - Vallenato"
+        android:textSize="15dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
 
 </RelativeLayout>

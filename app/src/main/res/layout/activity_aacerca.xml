@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="***ACERCA DE***"
+        android:text="ACERCA DE:"
         android:id="@+id/textView5"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -27,8 +27,6 @@
         android:layout_marginTop="40dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textAlignment="center" />
+        android:textSize="20dp" />
 
 </RelativeLayout>
