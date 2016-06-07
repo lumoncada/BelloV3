@@ -16,7 +16,9 @@
         android:text="BELLO ANTIOQUIA."
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_dark" />
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -29,7 +31,9 @@
         android:layout_marginTop="49dp"
         android:onClick="AbrirAcuidad"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -41,7 +45,9 @@
         android:layout_alignParentStart="true"
         android:onClick="Abriraturismo"
         android:layout_alignRight="@+id/bCiudad"
-        android:layout_alignEnd="@+id/bCiudad" />
+        android:layout_alignEnd="@+id/bCiudad"
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -53,7 +59,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/bTurismo"
-        android:layout_alignEnd="@+id/bTurismo" />
+        android:layout_alignEnd="@+id/bTurismo"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -65,7 +73,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/bHotel"
-        android:layout_alignEnd="@+id/bHotel" />
+        android:layout_alignEnd="@+id/bHotel"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -77,7 +87,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/bBares"
-        android:layout_alignEnd="@+id/bBares" />
+        android:layout_alignEnd="@+id/bBares"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -89,6 +101,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/bAcerca"
         android:layout_alignEnd="@+id/bAcerca"
-        android:onClick="AbrirAinformacion" />
+        android:onClick="AbrirAinformacion"
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>

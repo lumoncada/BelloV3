@@ -6,5 +6,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapabello">Map</string>
+    <string name="title_activity_mapasa">Map</string>
+    <string name="title_activity_mapabocca">Map</string>
+    <string name="title_activity_mapaborinquen">Map</string>
+    <string name="title_activity_mapaprada">Map</string>
+    <string name="title_activity_mapahabibi">Map</string>
+    <string name="title_activity_mapachoza">Map</string>
 
 </resources>

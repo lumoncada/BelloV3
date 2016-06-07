@@ -16,7 +16,8 @@
         android:text="HOTELES DE BELLO"
         android:id="@+id/textView3"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#f80808" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -59,7 +60,8 @@
         android:text="HOTEL PRADA."
         android:id="@+id/textView27"
         android:layout_alignTop="@+id/hprada"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#f20909" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,7 +72,8 @@
         android:textSize="15dp"
         android:layout_below="@+id/textView27"
         android:layout_alignLeft="@+id/textView27"
-        android:layout_alignStart="@+id/textView27" />
+        android:layout_alignStart="@+id/textView27"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -80,7 +83,8 @@
         android:textSize="15dp"
         android:layout_below="@+id/textView28"
         android:layout_alignLeft="@+id/textView31"
-        android:layout_alignStart="@+id/textView31" />
+        android:layout_alignStart="@+id/textView31"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -90,7 +94,8 @@
         android:id="@+id/textView31"
         android:layout_alignTop="@+id/hhabibi"
         android:layout_alignRight="@+id/textView27"
-        android:layout_alignEnd="@+id/textView27" />
+        android:layout_alignEnd="@+id/textView27"
+        android:textColor="#f80f0f" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -100,7 +105,8 @@
         android:textSize="15dp"
         android:layout_below="@+id/textView31"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -111,7 +117,8 @@
         android:textSize="15dp"
         android:layout_below="@+id/textView33"
         android:layout_alignLeft="@+id/textView31"
-        android:layout_alignStart="@+id/textView31" />
+        android:layout_alignStart="@+id/textView31"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -121,7 +128,8 @@
         android:id="@+id/textView35"
         android:layout_alignTop="@+id/hamerica"
         android:layout_alignLeft="@+id/textView31"
-        android:layout_alignStart="@+id/textView31" />
+        android:layout_alignStart="@+id/textView31"
+        android:textColor="#f80202" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -130,7 +138,8 @@
         android:id="@+id/textView37"
         android:textSize="15dp"
         android:layout_alignLeft="@+id/textView31"
-        android:layout_below="@+id/textView35" />
+        android:layout_below="@+id/textView35"
+        android:textColor="@android:color/black"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -140,6 +149,7 @@
         android:id="@+id/textView38"
         android:textSize="15dp"
         android:layout_below="@+id/textView37"
-        android:layout_alignLeft="@+id/textView31" />
+        android:layout_alignLeft="@+id/textView31"
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>

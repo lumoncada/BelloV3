@@ -16,7 +16,8 @@
         android:text="SITIOS TURISTICOS."
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#fb0a0a" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +29,8 @@
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp" />
+        android:layout_marginTop="43dp"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,7 +41,8 @@
         android:id="@+id/textView32"
         android:layout_below="@+id/textView39"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,5 +53,7 @@
         android:id="@+id/textView39"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView30" />
+        android:layout_below="@+id/textView30"
+        android:textColor="@android:color/black" />
+
 </RelativeLayout>
